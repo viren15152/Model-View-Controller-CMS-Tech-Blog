@@ -42,5 +42,5 @@ BlogPost.init(
   }
 );
 
-// Export
+//Export
 module.exports = BlogPost;
