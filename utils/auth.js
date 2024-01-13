@@ -11,3 +11,5 @@ const withAuth = (req, res, next) => {
   
   // Export
   module.exports = withAuth;
+
+  //This code allows me to protect routes that require authentication.

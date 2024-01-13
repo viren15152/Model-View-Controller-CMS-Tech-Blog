@@ -13,3 +13,5 @@ module.exports = {
       return pageUser === userId;
     },
   };
+
+  // This file will provide utility functions that can be used in Handlebars templates to perform common tasks.
