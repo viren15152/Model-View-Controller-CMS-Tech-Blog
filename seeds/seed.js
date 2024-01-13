@@ -24,7 +24,7 @@ const seedDatabase = async () => {
 
   const comments = await Comment.bulkCreate(commentData);
 
-  process.exit(0);
+  process.exit(0); //Exits the script after sededing the database
 };
 
 // Function call to seed database
