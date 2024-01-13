@@ -1,4 +1,4 @@
-// Function set up so users can create new blog posts
+// This section of my code is my function so users can create new blog posts
 async function newPostHandler(event) {
     try {
       // Prevent the default form submission
