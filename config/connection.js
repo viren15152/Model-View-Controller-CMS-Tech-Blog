@@ -7,7 +7,7 @@ const { Sequelize } = require("sequelize");
 // Allows for environmental variables to be used
 const sequelizeInstance = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
-  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
+  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
       host: process.env.DB_HOST || "localhost", // Use DB_HOST if available, otherwise default to "localhost"
       dialect: "mysql",
       dialectOptions: {
