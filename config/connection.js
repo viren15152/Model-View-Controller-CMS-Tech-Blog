@@ -2,10 +2,10 @@
 require("dotenv").config();
 
 // This section of my code is my sequelize import
-const Sequelize = require("sequelize");
+const { Sequelize } = require("sequelize");
 
 // Allows for environmental variables to be used
-const sequelize = process.env.JAWSDB_URL
+const sequelizeInstance = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
   : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
       host: process.env.DB_HOST || "localhost", // Use DB_HOST if available, otherwise default to "localhost"
@@ -18,7 +18,7 @@ const sequelize = process.env.JAWSDB_URL
 // Test the connection
 async function testConnection() {
   try {
-    await sequelize.authenticate();
+    await sequelizeInstance.authenticate();
     console.log('Connection has been established successfully.');
   } catch (error) {
     console.error('Unable to connect to the database:', error);
@@ -28,8 +28,9 @@ async function testConnection() {
 
 // Export the sequelize instance and the function to test the connection
 module.exports = {
-  sequelize,
+  sequelize: sequelizeInstance,
   testConnection,
 };
+
 
 
