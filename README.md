@@ -15,7 +15,10 @@ This is a CMS-Style blog site that developers can use to publish their blog post
  
 
 ## Visuals
-![Login Page](<Screenshot 2024-01-14 at 19.11.58.png>)
+
+![Login/Sign up Page](<Screenshot 2024-01-14 at 21.24.00.png>)
+![Screenshot of writing blog post](<Screenshot 2024-01-14 at 21.28.19.png>)
+![Screenshot of created blogpost](<Screenshot 2024-01-14 at 21.29.29.png>)
 
 ## Technologies Used
 
