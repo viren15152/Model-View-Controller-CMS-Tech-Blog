@@ -5,7 +5,7 @@ header {
   }
   
   body {
-    background-color: grey;
+    background-color: whitesmoke;
     margin: 0; /* Reset default body margin */
   }
   
@@ -72,7 +72,7 @@ header {
   }
   
   .card-body {
-    background-color: #ffe5ec;
+    background-color: whitesmoke;
   }
   
   .card {
