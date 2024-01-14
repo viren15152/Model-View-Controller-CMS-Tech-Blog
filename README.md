@@ -6,13 +6,12 @@
 * [Visuals](#visuals)
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
-* [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 
 ## Description
-
+This is a CMS-Style blog site that developers can use to publish their blog posts and comment on other developers posts. This fullstack application follows the MVC paradigm in it's architectural structure, it uses Handlebars.js as the templating language, sequelize as the ORM, and the express-session npm package as well as mysql. 
  
 
 ## Visuals
@@ -40,11 +39,9 @@
 
 ## Installation
 
-
-
-## Usage
-
-
+1. To use the application clone my repository 
+2. Once you have downloaded it to your local device run the command npm install in your terminal on VS code and this will download the necessary packages. 
+3. To start the app, use the command npm start. 
 
 ## Contributing
 
