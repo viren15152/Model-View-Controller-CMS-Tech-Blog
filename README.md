@@ -17,9 +17,9 @@ This is a CMS-Style blog site that developers can use to publish their blog post
 
 ## Visuals
 
-![Login/Sign up Page](<Screenshot 2024-01-14 at 21.24.00.png>)
-![Screenshot of writing blog post](<Screenshot 2024-01-14 at 21.28.19.png>)
-![Screenshot of created blogpost](<Screenshot 2024-01-14 at 21.29.29.png>)
+![Login Page](<Screenshot 2024-01-14 at 23.02.55.png>)
+![Creating a Blog Post](<Screenshot 2024-01-14 at 23.02.32.png>)
+![Blog Post Page](<Screenshot 2024-01-14 at 23.02.45.png>)
 
 ## Technologies Used
 
@@ -48,7 +48,7 @@ This is a CMS-Style blog site that developers can use to publish their blog post
 3. To start the app, use the command npm start. 
 
 ## Usage
-Once you have installed the application you can go to localhost:3001 in your default browser, You can then sign up (you must enter a password of a minimum of 8 characters). Once you have signed up you can create new blog posts and delete old ones as the you desire. 
+You can access the application via the deployed link in your default browser, You can then sign up (you must enter a password of a minimum of 8 characters). Once you have signed up you can create your own new blog posts and delete old ones as the you desire. 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
