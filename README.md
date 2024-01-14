@@ -6,6 +6,7 @@
 * [Visuals](#visuals)
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -46,6 +47,8 @@ This is a CMS-Style blog site that developers can use to publish their blog post
 2. Once you have downloaded it to your local device run the command npm install in your terminal on VS code and this will download the necessary packages. 
 3. To start the app, use the command npm start. 
 
+## Usage
+Once you have installed the application you can go to localhost:3001 in your default browser, You can then sign up (you must enter a password of a minimum of 8 characters). Once you have signed up you can create new blog posts and delete old ones as the you desire. 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
