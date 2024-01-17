@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## Description
-This is a CMS-Style blog site that developers can use to publish their blog posts and comment on other developers posts. This fullstack application follows the MVC paradigm in it's architectural structure, it uses Handlebars.js as the templating language, sequelize as the ORM, and the express-session npm package as well as mysql. 
+This is a CMS-Style blog site that developers can use to publish their blog posts and comment on other developers posts. This is a fullstack application that follows the MVC paradigm in it's architectural structure, it uses Handlebars.js as the templating language, sequelize as the ORM, and the express-session npm package as well as mysql. 
  
 
 ## Visuals
@@ -49,6 +49,9 @@ This is a CMS-Style blog site that developers can use to publish their blog post
 
 ## Usage
 You can access the application via the deployed link in your default browser, You can then sign up (you must enter a password of a minimum of 8 characters). Once you have signed up you can create your own new blog posts and delete old ones as the you desire. 
+
+Deployed Link: https://secure-journey-14586-f3f5cbbb08df.herokuapp.com/login
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
